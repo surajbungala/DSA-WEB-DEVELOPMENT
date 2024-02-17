@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        .thumbnail{
+            width: 300px;
+            /*object-fit: contain;
+             height: 300px;
+            object-position: top;
+            border-width: 2px;*/
+            display: block;
+        }
+
+        .search-bar {
+            font-size: 20px;
+            /*margin-left: 10px;
+            */
+        }
+
+        .vid-title{
+            display: inline;
+        }
+
+        .vid-stats{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <input class="search-bar" type="text" placeholder="Search"> 
+    <img class="thumbnail" src="thumbnail-1.webp" alt="">
+    
+    <p class="vid-title">
+        Talking Tech and <strong>AI with Google CEO</strong> Sundar Pichai!
+    </p>
+    <p class="vid-author">
+        Marques Brownlee
+    </p>
+    <p class="vid-stats">
+        3.4M views &#183; 6 months ago
+    </p>
+</body>
+</html>

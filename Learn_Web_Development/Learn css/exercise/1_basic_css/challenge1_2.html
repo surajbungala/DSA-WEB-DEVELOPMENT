@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            text-align: center;
+        }
+        a{
+            color: rgb(0, 113, 133);
+            text-align: center;
+            transition: color 0.15s;
+        }
+
+        a:hover{
+            color: brown;
+        }
+
+        .title{
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .price{
+            margin-top: 18px;
+            color: rgb(0, 118, 0);
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: bold;
+
+        }
+
+        .cart-button{
+            margin-top: 15px;
+            background-color: rgb(255, 216, 20);
+            font-size: 14px;
+            height: 30px;
+            width: 120px;
+            border: none;
+            border-radius: 15px;
+            margin-right: 8px;
+            cursor: pointer;
+            transition: background-color 0.15s, opacity 0.15s;
+        }
+
+        .cart-button:hover{
+            background-color: rgb(238, 202, 20);
+        }
+
+        .cart-button:active{
+            opacity: 0.5;
+        }
+
+        .buy-now-button{
+            margin-top: 20px;
+            background-color: rgb(255, 164, 28);
+            font-size: 14px;
+            border: none;
+            height: 30px;
+            width: 120px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: background-color 0.15s, opacity 0.15s;
+        }
+
+        .buy-now-button:hover{
+           background-color: rgb(197, 120, 3);
+        }
+
+        .buy-now-button:active{
+            opacity: 0.5;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge2</title>
+</head>
+<body>
+    <div>
+        <a class="amazon-link" href="https://www.amazon.in/">Back to Amazon</a>
+        <h1 class="title">Nike Black Running Shoes</h1>
+        <p class="price">$39 - in stock.</p>
+        <p>Free delivery tomorrow.</p>
+        <button class="cart-button">
+            Add to Cart
+        </button>
+        <button class="buy-now-button">
+            Buy now
+        </button>
+    </div>
+</body>
+</html>

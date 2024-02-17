@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+p{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.btn-yes-no{
+    font-size: 14px;
+}
