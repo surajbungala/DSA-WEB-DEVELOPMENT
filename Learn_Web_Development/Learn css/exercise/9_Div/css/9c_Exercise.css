@@ -1,0 +1,12 @@
+.title {
+    font-family: Arial;
+}
+
+.form {
+    width: 300px;
+    border-width: 1px;
+    border-color: rgb(156, 154, 154);
+    border-style: solid;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
