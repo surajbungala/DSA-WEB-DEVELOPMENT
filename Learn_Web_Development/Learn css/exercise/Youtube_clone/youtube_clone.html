@@ -4,33 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
-    <style>
-        .thumbnail{
-            width: 300px;
-            /*object-fit: contain;
-             height: 300px;
-            object-position: top;
-            border-width: 2px;*/
-        }
+    <link rel="stylesheet" href="youtube-clone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-        .search-bar {
-            font-size: 20px;
-            /*margin-left: 10px;
-            */
-        }
-    </style>
 </head>
 <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
-    <input class="search-bar" type="text" placeholder="Search"> 
-    <p>
-        Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p>
-        Marques Brownlee
-    </p>
-    <p>
-        3.4M views &#183; 6 months ago
-    </p>
+    <input class="search-bar" type="text" placeholder="Search">
+    <div class="vid-preview">
+        <div class="thumbnail-pic">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+        </div>
+        <div>
+            <div class="channel-pic">
+                <img class="profile-pic" src="channel-picture/channel-1.jpeg" alt="channel">
+            </div>
+            <div class="vid-info">
+                <p class="vid-title">
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <p class="vid-auth">
+                    Marques Brownlee
+                </p>
+                <p class="vid-stat">
+                    3.4M views &#183; 6 months ago
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="vid-preview">
+        <div class="thumbnail-pic">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="thumbnail">
+        </div>
+        <div>
+            <div class="channel-pic">
+                <img class="profile-pic" src="channel-picture/channel-2.jpeg" alt="channel">
+            </div>
+            <div class="vid-info">
+                <p class="vid-title">
+                    Try Not To Laugh Challenge #9
+                </p>
+                <p class="vid-auth">
+                    Markiplier
+                </p>
+                <p class="vid-stat">
+                    19M views &#183; 4 years ago
+                </p>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
