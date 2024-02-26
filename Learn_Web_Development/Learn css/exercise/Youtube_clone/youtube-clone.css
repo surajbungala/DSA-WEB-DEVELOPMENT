@@ -36,26 +36,20 @@ p{
     margin-right: 15px;
   }
 
-  .channel-pic {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-  }
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
 
-  .profile-pic {
+.profile-pic {
     border-radius: 50px;
     width: 40px;
   }
 
-  .vid-info {
-    display: inline-block;
-    width: 200px;
-  }
-
-  .vid-auth {
+.vid-auth {
     margin-bottom: 4px;
   }
 
-  .vid-auth, .vid-stat {
+.vid-auth, .vid-stat {
     color: rgb(99, 99, 99);
   }
