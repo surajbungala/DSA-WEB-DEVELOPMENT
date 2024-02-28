@@ -53,3 +53,51 @@ p{
 .vid-auth, .vid-stat {
     color: rgb(99, 99, 99);
   }
+
+  /*Third video css property*/
+
+  .youtube-profiles {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .thumbnail-preview {
+    width: 300px;
+    display: block;
+  }
+
+  .thumbnail {
+    margin-bottom: 10px;
+  }
+
+  .channel {
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .channel-pic {
+    width: 40px;
+    border-radius: 50px;
+  }
+
+  .video-descrption {
+    width: 250px;
+    display: inline-block;
+  }
+
+  .vid-titles {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+
+  .vid-authr {
+    margin-bottom: 4px;
+  }
+
+  .vid-authr, .vid-stats {
+    color: rgb(134, 133, 133);
+  }

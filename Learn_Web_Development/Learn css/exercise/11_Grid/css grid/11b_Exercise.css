@@ -1,0 +1,16 @@
+._grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+._50px {
+    background-color: skyblue;
+}
+
+._free {
+    background-color: pink;
+}
+
+._75px {
+    background-color: skyblue;
+}
